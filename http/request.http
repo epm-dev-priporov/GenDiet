@@ -1,0 +1,14 @@
+GET http://localhost:8080/disease
+Accept: application/json
+
+###
+
+POST http://localhost:8080/calculation
+Content-Type: application/json
+
+{
+  "weight": 5,
+  "mixtureId": 1,
+  "age": 1
+}
+
