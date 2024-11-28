@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ftwc
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ftwc_db
+    password: postgres
+    username: postgres

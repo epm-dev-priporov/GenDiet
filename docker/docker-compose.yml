@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:16-alpine3.18
+    container_name: ${COMPOSE_PROJECT_NAME}-postgres
+    restart: on-failure
+    environment:
+      PGUSER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ftwc_db
+    ports:
+      - "${POSTGRES_HOST_PORT}:5432"
