@@ -1,0 +1,10 @@
+{
+  "name": "Фенилкетонурия",
+  "table_id": "751145a4-cd6c-49b6-83f0-49085cf66ad9",
+  "mixtures": [
+    {
+      "name":"COMIDA-PKU А формула + LCP",
+      "protein": 11.8
+    }
+  ]
+}

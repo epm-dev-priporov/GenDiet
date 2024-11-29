@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  ravendb:
+    image: "ravendb/ravendb:ubuntu-latest"
+    ports:
+      - "8888:8080"
