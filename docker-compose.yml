@@ -1,6 +1,9 @@
 version: '3.8'
 services:
-  ravendb:
-    image: "ravendb/ravendb:ubuntu-latest"
+  mongo:
+    image: mongodb/mongodb-community-server:6.0.9-ubi8
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "root"
+      MONGO_INITDB_ROOT_PASSWORD: "q8qfdv23eDwqZ"
     ports:
-      - "8888:8080"
+      - "27017:27017"

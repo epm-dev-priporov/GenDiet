@@ -1,10 +1,177 @@
 {
+  "id": "9b6821e9-816f-46fb-bb40-3f8839dd33ad",
   "name": "Фенилкетонурия",
   "table_id": "751145a4-cd6c-49b6-83f0-49085cf66ad9",
   "mixtures": [
     {
+      "id": "b42535c7-6b8f-4bb5-8024-a0240d3416f8",
+      "name":"Афенилак 13",
+      "protein": 13
+    },
+    {
+      "id": "74782611-2679-4632-a59d-0a69c896c2c6",
+      "name":"Афенилак 15",
+      "protein": 15
+    },
+    {
+      "id": "c265a5f2-c5c4-4e8d-a17d-1e03ca52142a",
+      "name":"Афенилак 20",
+      "protein": 20
+    },
+    {
+      "id": "bbee62ca-e96a-4fd9-bfc5-7ad093fd1170",
+      "name":"Афенилак 40",
+      "protein": 40
+    },
+    {
+      "id": "5dd0e93b-44d6-4690-a135-87e17bb2c77d",
+      "name":"Нутриген PREMIUM 14-phе",
+      "protein": 14
+    },
+    {
+      "id": "23932fd8-3289-4866-afd9-84bf6a2635d0",
+      "name":"Нутриген PREMIUM 20-phе",
+      "protein": 20
+    },
+    {
+      "id": "17eec2ce-d710-406a-9584-651221653b79",
+      "name":"Нутриген PREMIUM 40-phе",
+      "protein": 40
+    },
+    {
+      "id": "e845bb22-d946-4c9e-a606-7b0a1555c398",
+      "name":"Нутриген PREMIUM 70-phе",
+      "protein": 70
+    },
+    {
+      "id": "6faed37b-723b-407c-9c65-0bd59e91d284",
+      "name":"Нутриген 30",
+      "protein": 30
+    },
+    {
+      "id": "2437ac84-44a1-4dbb-bbd2-cfe9b2d7bde5",
+      "name":"Нутриген 70",
+      "protein": 70
+    },
+    {
+      "id": "",
+      "name":"Нутриген 75",
+      "protein": 75
+    },
+    {
+      "id": "",
+      "name":"PKU Анамикс Инфант",
+      "protein": 13.1
+    },
+    {
+      "id": "178aaaa6-d901-49f2-b4d0-7cd4b82f54af",
+      "name":"П-АМ 1",
+      "protein": 75
+    },
+    {
+      "id": "08ef7af9-f1a2-4d77-af36-3d6c4e332748",
+      "name":"П-АМ 2",
+      "protein": 75
+    },
+    {
+      "id": "e419eb27-de29-4c6d-895f-8593b38a7f21",
+      "name":"П-АМ 3",
+      "protein": 75
+    },
+    {
+      "id": "91c95213-79d1-497a-b95c-c64ffeaec0db",
+      "name":"ХР Максамейд",
+      "protein": 25
+    },
+    {
+      "id": "56c32cd7-c4f9-4241-85f7-f1af55cabf14",
+      "name":"ХР Максамум",
+      "protein": 39
+    },
+    {
+      "id": "",
+      "name":"PKU Лофлекс LQ Juicy Berries жидкий 62.4 мл",
+      "protein": 10
+    },
+    {
+      "id": "",
+      "name":"PKU Лофлекс LQ Juicy Berries жидкий 100 мл",
+      "protein": 16
+    },
+    {
+      "id": "",
+      "name":"PKU Nutri 2 Energy",
+      "protein": 27
+    },
+    {
+      "id": "",
+      "name":"PKU Nutri 3 Energy",
+      "protein": 35.4
+    },
+    {
+      "id": "",
+      "name":"PKU Nutri 2 Concentrated",
+      "protein": 60
+    },
+    {
+      "id": "",
+      "name":"PKU Nutri 3 Concentrated",
+      "protein": 70
+    },
+    {
+      "id": "fc7a5388-d07e-4a6b-8145-05b69b726df6",
       "name":"COMIDA-PKU А формула + LCP",
       "protein": 11.8
+    },
+    {
+      "id": "6ff70ad4-aa3b-48f9-ad86-5ea9ebfa83d0",
+      "name":"COMIDA-PKU В",
+      "protein": 73
+    },
+    {
+      "id": "e9579c8a-8fe0-461b-8f8c-8e446303ba8e",
+      "name":"COMIDA-PKU В формула",
+      "protein": 31.1
+    },
+    {
+      "id": "b88b825f-e59c-4849-998b-b270f0faafaa",
+      "name":"COMIDA-РKU С",
+      "protein": 75
+    },
+    {
+      "id": "9264b665-f876-4396-8d45-ea93854c1b97",
+      "name":"COMIDA-PKU С формула",
+      "protein": 45
+    },
+    {
+      "id": "6bb787d9-003b-4f60-bd7a-387faab58d5f",
+      "name":"МD мил ФКУ-0",
+      "protein": 13
+    },
+    {
+      "id": "8aaf8197-f83a-45c2-942c-6bd7463c4037",
+      "name":"МD мил ФКУ-1",
+      "protein": 20
+    },
+    {
+      "id": "4d0edec3-5aef-4951-adf6-891721f3ec1b",
+      "name":"МD мил ФКУ-2",
+      "protein": 40
+    },
+    {
+      "id": "ec7f4d0f-986a-45c8-9594-f02b82141915",
+      "name":"МD мил ФКУ-3",
+      "protein": 69.1
+    },
+    {
+      "id": "c8596129-5b10-48d3-bca3-ce7be8511e7e",
+      "name":"МD мил ФКУ Премиум",
+      "protein": 69.1
+    },
+    {
+      "id": "10e9bacc-08b3-4bf3-a826-db71424b9aa7",
+      "name":"МD мил ФКУ MAXI",
+      "protein": 75
     }
   ]
 }
