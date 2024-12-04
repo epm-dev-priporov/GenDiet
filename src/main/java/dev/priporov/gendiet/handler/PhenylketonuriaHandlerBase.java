@@ -13,7 +13,6 @@ import org.mvel2.MVEL;
 import org.mvel2.compiler.ExecutableStatement;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -52,7 +51,7 @@ public class PhenylketonuriaHandlerBase extends BaseMixtureHandler {
         List<Formula> formulas = proteinRequirements.getFormulas();
         List<String> results = new ArrayList<>();
         for (Formula formula : formulas) {
-            if( formula.getAgeMax() != null && formula.getAgeMax() < months ){
+            if (formula.getAgeMax() != null && formula.getAgeMax() <= months) {
                 continue;
             }
             Double value = compute(formula, variables);

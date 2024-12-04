@@ -144,7 +144,7 @@
   ],
   "constants": {
     "ACCEPTABLE_PROTEIN_PER_GRAM": 50,
-    "PROTEIN_IN_MILK_100ML": 1.05
+    "PROTEIN_IN_MILK_100ML": 2.00
   },
   "formulas": [
     {
@@ -159,7 +159,7 @@
     },
     {
       "measure": "гр",
-      "formula": "(proteinPerDayRequirement) - (weight * acceptableValueFa / ACCEPTABLE_PROTEIN_PER_GRAM)",
+      "formula": "proteinPerDayRequirement - (weight * acceptableValueFa / ACCEPTABLE_PROTEIN_PER_GRAM)",
       "description": "Необходимая масса белка за счет лечебной смеси"
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "measure": "гр",
-      "formula": "100 / protein * (proteinPerDayRequirement) - (weight * acceptableValueFa / ACCEPTABLE_PROTEIN_PER_GRAM)",
+      "formula": "100 / protein * (proteinPerDayRequirement - (weight * acceptableValueFa / ACCEPTABLE_PROTEIN_PER_GRAM))",
       "description": "Необходимое количество смеси для получения требуемого кол-ва белка"
     }
   ]
