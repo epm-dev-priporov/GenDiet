@@ -1,5 +1,6 @@
 package dev.priporov.gendiet.document.phenylketonuria;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,5 +11,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Constants {
-    private int ACCEPTABLE_AMOUNT_OF_PROTEIN;
+
+    @JsonProperty("ACCEPTABLE_PROTEIN_PER_GRAM")
+    private Double acceptableProteinPerGram;
+
 }

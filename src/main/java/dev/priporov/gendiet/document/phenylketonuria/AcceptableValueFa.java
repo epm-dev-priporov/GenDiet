@@ -1,6 +1,7 @@
 package dev.priporov.gendiet.document.phenylketonuria;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,8 +16,12 @@ import java.util.UUID;
 public class AcceptableValueFa {
     private UUID id;
     private String name;
-    private int ageMin;
-    private int ageMax;
-    private double min_value;
-    private double max_value;
+    @JsonProperty("age_min")
+    private Long ageMin;
+    @JsonProperty("age_max")
+    private Long ageMax;
+    @JsonProperty("min_value")
+    private Double minValue;
+    @JsonProperty("max_value")
+    private Double maxValue;
 }

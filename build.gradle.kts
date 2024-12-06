@@ -24,9 +24,13 @@ repositories {
 }
 
 dependencies {
-    implementation("net.ravendb:ravendb:6.0.0")
+//    implementation("net.ravendb:ravendb:6.0.0")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+    implementation("org.mvel:mvel2:2.5.2.Final")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
+
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")

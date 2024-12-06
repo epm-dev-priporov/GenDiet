@@ -5,12 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class RequestDocument {
+public class DiseaseDto {
 
+    private String id;
     private String name;
+    private Set<MixtureDto> mixtures;
 
 }
